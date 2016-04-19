@@ -1,0 +1,19 @@
+//
+//  OAuthDemoObjc.pch
+//  OAuthDemoObjc
+//
+//  Created by Hanguang on 1/16/16.
+//  Copyright © 2016 Hanguang. All rights reserved.
+//
+
+#ifndef OAuthDemoObjc_pch
+#define OAuthDemoObjc_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import "AFNetworkActivityLogger.h"
+#import "AFOAuth2Manager.h"
+#import "AFHTTPRequestSerializer+OAuth2.h"
+
+#endif /* OAuthDemoObjc_pch */
